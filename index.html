@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    
+    <div class="p-5">
+        <button id="Success" class="bg-green-500 text-white px-4 py-2 rounded">Success</button>
+        <button id="Fail" class="bg-red-500 text-white px-4 py-2 rounded">Fail</button>
+        <button id="Warning" class="bg-yellow-500 text-white px-4 py-2 rounded">Warning</button>
+    </div>
+    
+    <div id="notifications" class="fixed top-5 right-5 flex flex-wrap-reverse gap-2 w-[13%]"></div>
+    
+
+    <script defer src="script.js"></script>
+</body>
+</html>
